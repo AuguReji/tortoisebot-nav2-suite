@@ -4,7 +4,6 @@
   <name>tortoisebot_gazebo</name>
   <version>0.0.0</version>
   <description>TODO: Package description</description>
-  <maintainer email="augusti-inc5736@todo.todo">augusti-inc5736</maintainer>
   <license>TODO: License declaration</license>
 
   <depend>std_msgs</depend>
