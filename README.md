@@ -31,7 +31,7 @@ tortoisebot-nav2-suite/
 |------|-------|------------|--------|
 | [1](docs/task1.md) | Simulate TortoiseBot in Gazebo + Teleop Control | Easy | ✅️ |
 | [2](docs/task2.md) | Get Object Distance from LIDAR (filtered) | Easy | ✅️ |
-| [3](docs/task3.md) | Follow a Ball Using LIDAR Only | Easy | ⬜ |
+| [3](docs/task3.md) | Follow a Ball Using LIDAR Only | Easy |  ✅️  |
 | [4](docs/task4.md) | Map a Custom World with Obstacles | Medium | ⬜ |
 | [5](docs/task5.md) | Fuse 2D LIDAR + Depth Camera → 3D Point Cloud | Medium | ⬜ |
 | [6](docs/task6.md) | Autonomous Navigation with Nav2 + RViz | Medium | ⬜ |
