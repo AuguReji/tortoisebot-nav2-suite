@@ -19,8 +19,8 @@ setup(
     ],
     install_requires=['setuptools'],
     zip_safe=True,
-    maintainer='augusti-inc5736',
-    maintainer_email='augusti-inc5736@todo.todo',
+    maintainer='',
+    maintainer_email='',
     description='TODO: Package description',
     license='TODO: License declaration',
     extras_require={
