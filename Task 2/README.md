@@ -63,6 +63,15 @@ https://workdrive.zohoexternal.in/file/vqewi3dce7d7157b14478ba35905fe0f5aaa9
 
 ---
 
+## 🔧 Shared / Utility Nodes
+
+Some nodes are reused across multiple tasks rather than belonging to a single one:
+
+| Node | Publishes | Used By | Description |
+|------|-----------|---------|--------------|
+| `closest_object_distance.py` | `/closest_object_distance` (Float32) | Task 2 | Median-filtered closest-object distance in front ±15° FOV |
+| `lidar_dis.py` | `/closest_object_info` (Float32MultiArray: [distance, angle_deg]) | Task 2 (extended), Task 3 | Closest object's distance *and* angle within ±15° FOV, moving-average filtered over the last 5 scans — the angle output is what makes ball-following (Task 3) possible |
+
 ## 📂 Package Structure
 
 ```
@@ -73,5 +82,6 @@ tortoisebot_description/
 tortoisebot_gazebo/                    (ament_python)
 └── tortoisebot_gazebo/
     ├── __init__.py
-    └── closest_object_distance.py    (new)
+    ├── closest_object_distance.py     # Task 2
+    └── lidar_dis.py                   # Task 2/3 shared utility
 ```
